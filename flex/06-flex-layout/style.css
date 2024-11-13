@@ -27,28 +27,42 @@ input {
   width: 400px;
 }
 
-.header ul {
+ul {
+  padding: 0;
   list-style-type: none;
 }
 
-.header li {
+li {
   display: inline;
+  margin: 4px;
+  
+}
+.header {
+  display: flex;
+  
 }
 
-.footer {
 
+.footer {
+  display: flex;
+  background: #eeeeee;
 }
 
 .content {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 
 .left-links {
-
+  margin-left: 10px;
+  margin-right: auto;
+  
 }
 
 .right-links {
-
+  margin-right: 10px;
 }
 
 .buttons {
@@ -56,6 +70,7 @@ input {
 }
 
 a:link { 
+  color: grey;
   text-decoration: none; 
 } 
 a:visited { 
